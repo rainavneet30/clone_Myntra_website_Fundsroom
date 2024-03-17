@@ -1,1 +1,2 @@
-# clone_myntra
+# myntra clone for Fundsroom
+**npm run start**
