@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./profile.css";
 import { Modal } from "antd";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 const Profile = () => {
   const [modal2Open, setModal2Open] = useState(false);
   const { user } = useSelector((store) => store.auth.data);
