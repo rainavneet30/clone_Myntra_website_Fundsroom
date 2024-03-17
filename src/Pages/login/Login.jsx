@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { message } from "antd";
 import { authLogin } from "../../Redux/auth/action";
@@ -10,7 +10,7 @@ const Login = () => {
     email: "",
     password: "",
   });
-  const [messageApi, contextHolder] = message.useMessage();
+  const [ contextHolder] = message.useMessage();
   const dispatch = useDispatch();
   const auth = useSelector((store) => store.auth);
   console.log(auth);
