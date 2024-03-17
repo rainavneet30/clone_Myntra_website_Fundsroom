@@ -34,7 +34,7 @@ const Navbar = () => {
   console.log(auth.data.isAuthenticated)
   const styleA = { left: "-100%" };
   const styleB = { left: "0%" };
-  const login = false;
+//  const login = false;
   const items = [
     {
       label: auth.data.isAuthenticated ? (
