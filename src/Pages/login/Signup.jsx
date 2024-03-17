@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Signup.css";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { registerUser } from "../../Redux/auth/action";
 import { message } from "antd";
@@ -14,7 +14,7 @@ const Signup = () => {
   const dispatch = useDispatch();
   const auth = useSelector((store) => store.auth);
   console.log(auth);
-  const navigate = useNavigate();
+ // const navigate = useNavigate();
   const handleFormChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
