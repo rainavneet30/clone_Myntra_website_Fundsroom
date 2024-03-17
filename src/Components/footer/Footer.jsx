@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import { MdCall, MdEmail, MdHome, MdModeComment } from "react-icons/md";
-import { FaLinkedin, FaGithub, FaYoutube, FaHeart } from "react-icons/fa";
+import { MdCall, MdEmail } from "react-icons/md";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
